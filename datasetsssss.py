@@ -90,3 +90,4 @@ if k in row and row[k] is not None:
 scam_type = str(row[k])
 
 break
+
