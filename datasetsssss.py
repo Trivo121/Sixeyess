@@ -76,7 +76,7 @@ label = None
 scam_type = ''
 if isinstance(row, dict):
 if 'labels' in row:
-try:
+try: 
 label = int(row['labels'])
 except Exception:
 label = 1 if row['labels'] else 0
@@ -88,4 +88,5 @@ label = 1 if row['label'] else 0
 for k in ('scam_type', 'scam_types', 'type', 'category'):
 if k in row and row[k] is not None:
 scam_type = str(row[k])
+
 break
