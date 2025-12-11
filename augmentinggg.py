@@ -13,7 +13,7 @@ import threading
 # ============================================================================
 
 # OpenRouter API Configuration
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "enter your key"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_NAME = "amazon/nova-2-lite-v1:free"
 
@@ -379,3 +379,4 @@ if __name__ == "__main__":
         list(executor.map(process_single_conversation, conversations.items()))
         
     print("\n✨ All processing complete!")
+
